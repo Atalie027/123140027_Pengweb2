@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Pendaftar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="site-header">
+      <h1>Detail Informasi Pendaftar</h1>
+      <p>Pengembangan Aplikasi Web - Tugas Individu 3</p>
+    </header>
+
+    <main class="content">
+      <section class="card">
+        <h2>Data Pendaftar</h2>
+
+        <!-- Data di bawah ini DUMMY (statis).
+             Halaman ini hanya menerima query string pada URL,
+             tanpa menangkap / memproses datanya. -->
+        <table class="data">
+          <caption>Informasi pendaftar</caption>
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Isian</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Nama Lengkap</th>
+              <td>Atalie Salsabila</td>
+            </tr>
+            <tr>
+              <th scope="row">NIM</th>
+              <td>123140027</td>
+            </tr>
+            <tr>
+              <th scope="row">Tanggal Lahir</th>
+              <td>10 Agustus 2005</td>
+            </tr>
+            <tr>
+              <th scope="row">Email</th>
+              <td>atalie.123140027@student.itera.ac.id</td>
+            </tr>
+            <tr>
+              <th scope="row">Jenis Kelamin</th>
+              <td>Perempuan</td>
+            </tr>
+            <tr>
+              <th scope="row">Program Studi</th>
+              <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+              <th scope="row">Kelas</th>
+              <td>RA</td>
+            </tr>
+            <tr>
+              <th scope="row">Minat</th>
+              <td>Game Development</td>
+            </tr>
+            <tr>
+              <th scope="row">Alamat</th>
+              <td>Jati Agung</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="info-box">
+          Query string yang diterima halaman ini (hasil desain dari form pendaftaran):
+          <code>detail.html?nama=ATALIE+SALSABILA&amp;nim=123140027&amp;tgl_lahir=2005-08-10&amp;email=atalie.123140027%40student.itera.ac.id&amp;gender=Perempuan&amp;prodi=Teknik+Informatika&amp;kelas=RA&amp;minat=Game+Development&amp;alamat=Jati+Agung</code>
+        </div>
+
+        <div class="actions" style="margin-top:18px;">
+          <a class="btn btn-secondary" href="index.html">&larr; Kembali ke Pendaftaran</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      Informatika ITERA &copy; 2025
+    </footer>
+
+  </div>
+</body>
+</html>
